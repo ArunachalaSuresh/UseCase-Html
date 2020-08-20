@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label{
+width:240px;
+display:inline-block;
+}
+input[type="radio"],input[type="checkbox"]{
+margin-left:240px;
+}
+
+</style>
+
+</head>
+<body style="background-color:#FFE4E1">
+
+<form action="">
+<label for="photo">Photo: </label>
+<!--
+<input type="image"  src="download.jfif" alt="Add an Image" id="photo" name="photo" width ="100" height="40"/><br><br>-->
+  <input type="file" id="img" name="img" accept="download/*"><br><br>
+<label for="username">Name :</label>
+<input type="text" id="username" name="username" placeholder="Enter your name"/><br><br>
+<label for="dateOfBirth">DOB:</label>
+<input type="date" id="dateOFBirth" name="dateOfBirth"/><br></br>
+<p> Gender :</p>
+<input type="radio" id="male" name="male"/>
+<label for ="male">Male</label><br>
+<input type="radio" id="female" name="female"/>
+<label for="female">Female</label><br><br>
+
+<label for="address">Address:</label>
+<textarea name="address" rows="5" col="5">Enter your address </textarea><br><br>
+<label for ="pwd">Password:</label>
+<input type="password"  placeholder ="Password" id="pwd" name="pwd" /><br><br>
+<label for ="confirmpwd">Confirm Password:</label>
+<input type="password"placeholder="Confirm Password" id="confirmpwd" name="confirmpwd"/><br><br>
+<p>Interested Tech Stack :</p>
+<input type="checkbox" id="java" name="java"/>
+<label for="java">Java </label><br>
+<input type="checkbox" id="dotnet" name="dotnet"/>
+<label for="dotnet">Dotnet </label><br>
+<input type="checkbox" id="python" name="python"/>
+<label for="python">Phython </label><br>
+<input type="checkbox" id="react" name="react"/>
+<label for="react">React native </label><br><br>
+
+<label for="country">Country:</label>
+<select name="country" id="country">
+<option value="none" >Select a country</option>
+<option value="India">India</option>
+<option value="Africa">Africa</option>
+<option value="America">America</option>
+<option value="China">China</option>
+
+</select>
+</form>
+</body>
+</html>
